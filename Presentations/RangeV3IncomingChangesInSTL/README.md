@@ -1,5 +1,5 @@
 # Range-v3: Incoming changes in STL
-Tutorial style presentation about range-v3 by Eric Niebler.
+Tutorial style presentation about range-v3 by Eric Niebler. Presentation also available at [slides.com](http://slides.com/piotrzelasko/range-v3-incoming-changes-in-the-stl)
 # Bibliography
 - https://github.com/ericniebler/range-v3
 - https://ericniebler.github.io/range-v3
