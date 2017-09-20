@@ -1,0 +1,6 @@
+[requires]
+Catch/1.9.6@philsquared/testing
+
+[generators]
+cmake
+
