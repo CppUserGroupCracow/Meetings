@@ -1,6 +1,8 @@
 There was no PPT presentation in this meeting. Instead, I provide some materials.
 
-* blog post on the same topic: https://akrzemi1.wordpress.com/2017/12/02/your-own-type-predicate/
+* blog posts on the same topic:
+  * https://akrzemi1.wordpress.com/2017/12/02/your-own-type-predicate/
+  * https://akrzemi1.wordpress.com/2017/12/20/a-friendly-type-predicate/
 * code samples on Wandbox:
   * with just `void_t`: https://wandbox.org/permlink/8acxSWTEq3u5G5sk
   * with function signature: https://wandbox.org/permlink/G0uZ5D5sOqk1hGOc
