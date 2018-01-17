@@ -1,5 +1,5 @@
 The meeting was live-demo without presentation. Instead, I am
-linked below snapshot of implememtatnion.
+linked below snapshot of implementation.
 
 If/Else chain implementation with linear complexity:
 * fixed size example: https://wandbox.org/permlink/GULAhZerGMBDQgcG
