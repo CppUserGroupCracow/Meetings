@@ -5,8 +5,10 @@ Blog posts with contents covered in the meeting
 * "Sessions and object lifetimes" - https://akrzemi1.wordpress.com/2016/04/07/sessions-and-object-lifetimes/
 * "Rvalues redefined" - https://akrzemi1.wordpress.com/2018/05/16/rvalues-redefined/
 
+One correction regarding the meeting. Destructive move still needs to call the destructor for the object. this makes the calss design a bit different. It is reflected in the materials here.
+
 Online source code for working with non-movable types:
-* https://wandbox.org/permlink/C2gH4pe9CSDL5DgJ
+* https://wandbox.org/permlink/ZknWB2FZChpY7YWc
 
 The source code of the program we were writing during the session:
 
@@ -23,7 +25,11 @@ class File
 {
   FILE* _h;
   // invariant:  _h != 0
-  explicit File(FILE* h) : _h(h) {}
+  
+  explicit File(File* old) : _h(old->_h) {
+    old->_h = nullptr;
+    old->~File();
+  }
   
 public:
   explicit File(const char * fname) : _h(fopen(fname, "r")) 
@@ -37,7 +43,8 @@ public:
   
   ~File()
   {
-    fclose(_h);
+    if (BOOST_LIKELY(_h != nullptr))
+      fclose(_h);
   }
   
   static File main_config() { return true ? File("config.ini") : File("e"); }
@@ -45,7 +52,7 @@ public:
   
   friend File destructive_move(File& old) noexcept
   {
-    return File{std::move(old._h)};
+    return File{&old};
   }
   
   File( File&&) = delete;
@@ -82,6 +89,7 @@ public:
   }
 };
 
+
 template <typename F>
 struct rvalue
 {
@@ -100,6 +108,7 @@ void test()
   og.emplace(rvalue{[&]{ return of.eject(); }});
   putc(og.get().get_char(), stdout);
 }
+
 
 struct R
 {
