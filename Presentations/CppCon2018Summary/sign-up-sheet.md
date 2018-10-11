@@ -7,6 +7,7 @@ and put your nickname beside so that we know that this talk is taken.
 
 We expect the videos from the talks to appear under [this YouTube list](https://www.youtube.com/user/CppCon).
 
-| talk          | your nickname          |
-|---------------|------------------------|
+| talk                                                                     | your nickname          |
+|--------------------------------------------------------------------------|------------------------|
+|Louis Dionne “Compile-time programming and reflection in C++20 and beyond”|Tomasz Kamiński|
 | (no talk yet) | (no-one signed up yet) |
