@@ -9,3 +9,21 @@ On the following meeting(s) we'll be discousing about it.
 Concepts help develop better design, provide better specification interface, simplify code and give precise, early error messages.
 
 [conference video](https://www.youtube.com/watch?v=HddFGPTAmtU&feature=youtu.be)
+
+## Jussi Pakkanen: "Compiling Multi-Million Line C++ Code Bases Effortlessly with the Meson Build System"
+
+[Meason](https://mesonbuild.com) is an open source, multiplatform build system for multiple languages. It's fast, lean and efficient. It's widely used by multiple open source projects - [see the list](http://mesonbuild.com/Users.html). The main idea is to use modern programming tools and best practises including unit testing, code coverage, procompiled headers, code generators, caching, templates and so on... All in one place.
+
+[conference video](https://youtu.be/SCZLnopmYBM)
+
+## Kate Gregory “Simplicity: Not Just For Beginners”
+
+This speech is about good programming practises and it's aimed for all programmers. Some important thoughts from the presentation:
+* "Programming is a social activity in which communication is a vital skill. The code you leave behind speaks". 
+* General "rocket science" design forces maintenace complicated code that is "ready for all possible extending cases" that never happens
+* "Simplicity paradox - the things you do to make code simple can make it more complex", "As simple as possible but no simpler!"
+* Use idioms, libraries and commonality - don't re-invent the wheel
+* "Action points: Learn, Read, Care, Test, Communicate" 
+
+[conference video](https://youtu.be/n0Ak6xtVXno)
+
