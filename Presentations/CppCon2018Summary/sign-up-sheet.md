@@ -10,4 +10,5 @@ We expect the videos from the talks to appear under [this YouTube list](https://
 | talk                                                                     | your nickname          |
 |--------------------------------------------------------------------------|------------------------|
 |Louis Dionne “Compile-time programming and reflection in C++20 and beyond”|Tomasz Kamiński|
+|[G. Nishanov “Nano-coroutines to the Rescue! (Using Coroutines TS, of Course)”](https://www.youtube.com/watch?v=j9tlJAqMV7U)|[@wgml](https://github.com/wgml)|
 | (no talk yet) | (no-one signed up yet) |
