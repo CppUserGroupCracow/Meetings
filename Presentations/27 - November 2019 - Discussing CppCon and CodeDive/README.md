@@ -18,6 +18,7 @@ Schedules for the conferences can be found here:
  
    * Michael Park, [Pattern Matching: A Sneak Peek](https://www.youtube.com/watch?v=PBZBG4nZXhk).
    * Andrew Sutton, [Meta++: Language Support for Advanced Generative Programming](https://www.youtube.com/watch?v=kjQXhuPX-Ac).
+   * Eric Niebler, [A Unifying Abstraction for Async in C++](https://www.youtube.com/watch?v=tF-Nz4aRWAM) (Well, this one wasn't really discussed, but that was a serious oversight).
    
  * Practical usage of C++ today
  
